@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>es-transport-api-demo</module>
+        <module>es-rest-high-level-client-api-demo</module>
     </modules>
 
     <properties>

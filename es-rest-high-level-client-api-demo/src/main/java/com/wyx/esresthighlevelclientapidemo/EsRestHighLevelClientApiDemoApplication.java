@@ -1,13 +1,13 @@
-package com.wyx.estransportapidemo;
+package com.wyx.esresthighlevelclientapidemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EsTransportApiDemoApplication {
+public class EsRestHighLevelClientApiDemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EsTransportApiDemoApplication.class, args);
+		SpringApplication.run(EsRestHighLevelClientApiDemoApplication.class, args);
 	}
 
 }

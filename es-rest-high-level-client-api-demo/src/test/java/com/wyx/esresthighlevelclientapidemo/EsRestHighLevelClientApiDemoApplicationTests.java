@@ -1,10 +1,10 @@
-package com.wyx.estransportapidemo;
+package com.wyx.esresthighlevelclientapidemo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class EsTransportApiDemoApplicationTests {
+class EsRestHighLevelClientApiDemoApplicationTests {
 
 	@Test
 	void contextLoads() {
