@@ -40,10 +40,11 @@ public class IndexDemoTest {
 //						"}", XContentType.JSON);
 
 		Map<String, Object> jsonMap = new HashMap<>();
-		jsonMap.put("user", "kimchy2");
+		jsonMap.put("user", "kimchy");
 		jsonMap.put("postDate", new Date());
 		jsonMap.put("message", "trying out Elasticsearch2");
 		indexRequest = new IndexRequest(EsConstant.INDEX)
+				.id("1")
 				.source(jsonMap);
 
 		IndexResponse indexResponse = restHighLevelClient.index(indexRequest, RequestOptions.DEFAULT);
